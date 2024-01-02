@@ -1,0 +1,18 @@
+# get Env List
+>> conda env list
+
+# to check the packages of specific env
+>> conda activate base
+>> pip list
+
+# create our own personal env
+>> conda create -n Env_Name python==3.7
+
+# switching to a particular env
+>> conda activate Env_Name
+
+# to save all the packages on a file
+>> pip freeze > requirements.txt
+
+# to intsall all the packages from text file
+>> pip install -r requirements.txt
