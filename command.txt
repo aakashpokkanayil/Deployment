@@ -16,3 +16,28 @@
 
 # to intsall all the packages from text file
 >> pip install -r requirements.txt
+
+
+
+├── Artifacts/ 
+│   ├── css/ (all css files)
+│   ├── Data/ (train.csv,test.csv,housepredict.csv)
+│   ├── pkl/ (model.pkl,preprocessor.pkl)
+│
+├── templates/ (contains all html files)
+│  
+├── logs/
+│
+├── notebook/ (jupyter notebook, tablue files)
+│
+├── components/
+│   ├── data_injection.py (splits data to train and test and push to Artifacts/Data folder)
+│   ├── data_preprocessing.py (responsible for all preprocessing and push pkl file to Artifacts/pkl)
+│   ├── pkl/ (model.pkl,preprocessor.pkl)
+│
+│
+├── README.md
+├── app.py
+├── flight_price.ipynb
+├── flight_rf.pkl
+├── requirements.txt

@@ -20,6 +20,6 @@ logit_reg.fit(xtrain,ytrain)
 y_pred=logit_reg.predict(xtest)
 print(accuracy_score(y_true=ytest,y_pred=y_pred))
 
-pickle.dump(logit_reg,open('Model/logit_model_1.pkl','wb'))
+pickle.dump(logit_reg,open('Deploy/logit_model_1.pkl','wb'))
 
 
